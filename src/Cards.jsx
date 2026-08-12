@@ -10,13 +10,13 @@ function Card(props) {
 
 function Skill() {
     return(
-        <>
+        
         <Card title="My Skills">
             <p>Javascript</p>
             <p>Python</p>
             <p>React</p>
         </Card>
-        </>
+        
     )
 }
 
