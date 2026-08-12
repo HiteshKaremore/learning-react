@@ -1,9 +1,18 @@
+function Greeting(props){
+  return(
+    <>
+    <h1>Hello {props.name}</h1>
+    <h2>You are {props.age} years old</h2>
+    </>
+    
+  )
+}
+
 function App(){
-  const name = "Hitesh"
   return (
   <div>
-    <h1>Hello {name}</h1>
-    <p>I am learning React</p>
+    <Greeting name="Hitesh" age = {29} />
+    <Greeting name="Rahul" age = {28} />
    </div>
    )
    
